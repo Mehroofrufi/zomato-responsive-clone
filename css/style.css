@@ -1,0 +1,277 @@
+@font-face {
+    font-family: zomato;
+    src: url(../fonts/Metropolis-Regular.otf);
+}
+@font-face {
+    font-family: zomato-light;
+    src: url(../fonts/Metropolis-Light.otf);
+}
+html{
+    overflow-x: hidden;
+}
+.headWrapper{
+    background-image: url(../images/back1.jpg);
+    height: 570px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navBar{
+    margin-left: 57%;
+    position: absolute;
+    margin-top: 23px; 
+}
+.navBar span{
+    color: white;
+    font-size: 18px;
+    font-family: zomato-light;
+    cursor: pointer;
+}
+.hsec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hsec .zimg{
+    width: 325px;
+    margin-top: 205px;
+    margin-bottom: 15px;
+}
+.hsec .desc p{
+    color: #fafafa;
+    font-size: 36px;
+    font-stretch: ultra-condensed;
+    line-height: 42px;
+    font-family: zomato;
+}
+.sec1 .desc{
+    margin-top: 33px;
+}
+.sec1 .desc p{
+    font-size: 36px;
+    font-family: zomato;
+}
+.sec1 .desc .para{
+    font-size: 20px;
+    font-family: zomato;
+    padding-top: 23px;
+    padding: 0 20%;
+    color: rgb(116, 116, 116);
+    font-family: zomato-light;
+}
+.sec1 .desc p .pinImg{
+    width: 53px;
+    height: 36px;
+    border-radius: 8px;
+}
+.sec1 .desc p span{
+    font-weight: 600;
+    font-size: 32px;
+}
+.sec2{
+    margin-top: 80px;
+}
+.sec2 .box{
+    width: 100%;
+    height: 60px;
+    box-shadow: 1px 1px 4px #67676762;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: zomato-light;
+    padding: 20px;
+    cursor: pointer;
+    margin: 15px;
+}
+.sec2 .box:hover{
+    box-shadow: 2px 3px 8px #76767652;
+}
+.sec2 .box span{
+    font-size: 20px;
+    margin-right: auto;
+}
+.myrow{
+    display: flex;
+}
+.secTitle{
+    font-family: zomato;
+    font-weight: 500;
+}
+.sec3 .box{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: zomato-light;
+    box-shadow: 1px 1px 4px #67676762;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+.sec3 .box img{
+    width: 50px;
+    height: 35px;
+    border-radius: 6px;
+}
+.sec3 .box .span{
+    margin-right: auto;
+}
+.sec3 .box span{
+    font-family: zomato-light;
+    font-size: 20px;
+}
+.sec3 .box:hover{
+    box-shadow: 2px 3px 8px #76767652;
+}
+.footer{
+    background-color: #e3e3e385;
+    padding: 35px;
+    width: 100%;
+}
+.footer .fsec1{
+    display: flex;
+}
+.footer .fsec1 img{
+    width: 150px;
+    margin-right: auto;
+}
+.footer .fsec1 .loc{
+    border: 1px solid rgba(24, 24, 24, 0.532);
+    padding: 5px;
+    border-radius: 6px;
+    height: 38px;
+    cursor: pointer;
+}
+.footer .fsec1 .loc img{
+    width: 28px;
+    height: 20px;
+}
+.footer .fsec1 .loc i{
+    font-size: 12px;
+    padding: 5px;
+    margin-left: auto;
+}
+.footer .fsec1 .loc .globe{
+    font-size: 18px;
+}
+.footer .fsec1 .span{
+    margin: 10px;
+}
+.fsec2{
+    margin-top: 30px;
+    display: flex;
+}
+.fsec2 .title{
+    font-family: zomato;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.fsec2 .cols ul{
+    list-style: none;
+    padding-left: 0px;
+    color: #4d4d4dd7;
+    font-family: zomato-light;
+    font-size: 15px;
+}
+.fsec2 .cols ul li{
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.fsec2 .cols ul li:hover{
+    color: #4d4d4d;
+}
+.fsec2 .cols .social i{
+    font-size: 13.5px;
+    width: 23px;
+    background: black;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 20px;
+}
+.fsec2 .cols img{
+    width: 130px;
+    height: 45px;
+    border-radius: 7px;
+}
+.fsec3 p{
+    color: #4d4d4d;
+    font-size: 13px;
+}
+.fsec2 .cols{
+    margin-right: 100px;
+}
+.closeArea{
+    display: none;
+}
+.menubars{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .menubars{
+        display: block;
+    }
+    .menubars{
+        color: white;
+        padding: 20px 15px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .menuclose{
+        color: rgb(0, 0, 0);
+        padding: 20px 15px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .closeArea{
+        display: flex;
+    }
+    .closeArea img{
+        width: 45%;
+        margin-left: 50%;
+    }
+    .navBar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        display: flex;
+        transition: 0.5s;
+        background: #ffffff;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .navBar span{
+        color: black;
+        display: block;
+    }
+    .navBar{
+        display: none;
+    }
+    .headWrapper .hsec p{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .headWrapper .hsec{
+        margin-top: -100px;
+        padding: 0 30px;
+    }
+    .sec1 .desc p{
+        padding: 0 10%;
+    }
+    .sec1 .desc .para{
+        padding: 0 5%;
+    }
+    .fsec1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .fsec2{
+        display: grid;
+    }
+    
+}
